@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/add_style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="icons/logo.svg" alt="Логотип">
+            </div>
+        </div>
+        <div class="header__right-block">
+            <button class="btn btn_white">Связаться со мной</button>
+        </div>
+    </header>
+    <div class="sidepanel">
+        <div class="sidepanel__text"><span>Социальные сети</span></div>
+        <div class="sidepanel__divider"></div>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/facebook.svg" alt="facebook">
+        </a>
+    </div>
+
+    <div class="about">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="about__text">
+                <h2 class="title">Сорелля Ярослав Сергеевич</h2>
+                <div class="about__descr">
+                    Я являюсь начинающим веб-разработчиком.
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about__advantages">
+                <h3>Быстро учусь</h3>
+                <div class="about__advantages-text">
+                    Уже закончил три курса по направлению front-end разработки и не собираюсь останавливаться.
+                </div>
+                <h3>Правильный подход</h3>
+                <div class="about__advantages-text">
+                    Я обладаю выдающейся усидчивостью и стрессоустойчивостью.
+                </div>
+            </div>
+            <div class="about__slider">
+                <div class="about__slider-counter">
+                    <div class="about__slider-prev">
+                        <img src="icons/left.svg" alt="prev">
+                    </div>
+                    <span id="current">03</span>
+                    /
+                    <span id="total">04</span>
+                    <div class="about__slider-next">
+                        <img src="icons/right.svg" alt="next">
+                    </div>
+                </div>
+                <div class="about__slider-wrapper">
+                    <div class="about__slide">
+                        <img src="img/slider/pepper.jpg" alt="pepper">
+                    </div>
+                    <!-- <div class="about__slide">
+                        <img src="img/slider/food-12.jpg" alt="food">
+                    </div>
+                    <div class="about__slide">
+                        <img src="img/slider/olive-oil.jpg" alt="oil">
+                    </div>
+                    <div class="about__slide">
+                        <img src="img/slider/paprika.jpg" alt="paprika">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="projects">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                       Описание проекта
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <div class="tabcontent__descr">
+                        Описание проекта
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/post.jpg" alt="post">
+                    <div class="tabcontent__descr">
+                        Описание проекта
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        Описание проекта
+                    </div>
+                </div>
+                <div class="tabheader">
+                    <h2>Мои проекты</h2>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Название проекта</div>
+                        <div class="tabheader__item">Название проекта</div>
+                        <div class="tabheader__item">Название проекта</div>
+                        <div class="tabheader__item">Название проекта</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="divider"></div>
+
+    <div class="skills">
+        <h2 class="title">Основные навыки</h2>
+
+        <div class="skills__field">
+            <div class="container">
+                <div class="skills__item">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <h3 class="skills__item-title">HTML5</h3>
+                </div>
+                <div class="skills__item">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <h3 class="skills__item-title">CSS3</h3>
+                </div>
+                <div class="skills__item">
+                    <img src="img/tabs/post.jpg" alt="post">
+                    <h3 class="skills__item-title">Java Script ES6</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="subtitle">Я в социальных сетях:</div>
+                <a href="#" class="link">instagram</a>
+                <a href="#" class="link">facebook</a>
+                <a href="#" class="link">VK</a>
+            </div>
+            <div class="pepper">
+                <img src="icons/veg.svg" alt="pepper">
+            </div>
+            <div class="call">
+                <div class="subtitle">Или позвоните мне:</div>
+                <a href="#" class="link">+380678341034</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
