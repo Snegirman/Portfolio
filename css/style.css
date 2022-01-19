@@ -109,20 +109,6 @@ a {
     object-fit: cover
 }
 
-.tabcontent__descr {
-    position: absolute;
-    top: 330px;
-    right: -177px;
-    width: 550px;
-    height: 359px;
-    background: rgba(43, 42, 41, 0.9);
-    padding: 50px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 36px;
-    color: rgba(255, 255, 255, 0.7)
-}
-
 .tabheader {
     width: 280px;
     padding: 35px 30px;
