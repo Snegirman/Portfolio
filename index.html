@@ -12,6 +12,10 @@
             <div class="header__logo">
                 <img src="img/my_logo.png" alt="Логотип">
             </div>
+            <div class="header__email">
+                <p>E-mail:</p>
+                <a href="mailto:snegirman@gmail.com" class="link">snegirman@gmail.com</a>
+            </div>
     </header>
 
     <div class="about">
@@ -19,10 +23,10 @@
             <div class="about__text">
                 <h2 class="title">Привет, меня зовут Сорелля Ярослав Сергеевич!</h2>
                 <div class="about__descr">
-                    Я являюсь начинающим веб-разработчиком. Обладаю развитыми soft-скиллами, так как имеется большой опыт преподавания. Устойчив к рутинным задачам и не испытываю проблем с монотонной работой. Готов врываться проекты и помогать их двигать вперёд!
+                    Я являюсь начинающим веб-разработчиком. Обладаю развитыми soft-скиллами, так как имеется большой опыт преподавания. Устойчив к рутинным задачам и не испытываю проблем с монотонной работой. Готов врываться проекты и помогать двигать их вперёд!
                 </div>
             </div>
-            <button class="btn btn_white">Связаться со мной</button>
+            <button data-modal class="btn btn_white">Связаться со мной</button>
         </div>
         <div class="container">
             <div class="about__advantages">
@@ -80,19 +84,19 @@
                         <img src="img/tabs/Timer.png" alt="Timer">
                     </a>
                 </div>
-                <div class="tabcontent">
+                <!-- <div class="tabcontent">
                     <img src="img/tabs/post.jpg" alt="post">
                 </div>
                 <div class="tabcontent">
                     <img src="img/tabs/vegy.jpg" alt="vegy">
-                </div>
+                </div> -->
                 <div class="tabheader">
                     <h2>Мои проекты</h2>
                     <div class="tabheader__items">
                         <div class="tabheader__item tabheader__item_active">To-Do List</div>
                         <div class="tabheader__item">Timer</div>
-                        <div class="tabheader__item">Название проекта</div>
-                        <div class="tabheader__item">Название проекта</div>
+                        <!-- <div class="tabheader__item">Название проекта</div>
+                        <div class="tabheader__item">Название проекта</div> -->
                     </div>
                 </div>
             </div>
@@ -147,14 +151,16 @@
             <div class="modal__content">
                 <form action="#">
                     <div class="modal__close">&times;</div>
-                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <div class="modal__title">Я свяжусь с вами как можно быстрее!</div>
                     <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
                     <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
-                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                    <input required placeholder="Ваш email" name="email" type="email" class="modal__input">
+                    <textarea placeholder="Заметка, при необходимости" name="note" type="text" class="modal__input"></textarea>
+                    <button class="btn btn_dark btn_min">Связаться со мной</button>
                 </form>
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
